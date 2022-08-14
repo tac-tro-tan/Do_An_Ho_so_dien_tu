@@ -1,0 +1,37 @@
+
+@baseUrl = http://localhost:8000
+@Name= congdan
+# @name getAll
+GET {{baseUrl}}/{{Name}}
+
+###
+
+# @name add{{Name}}
+
+POST {{baseUrl}}/{{Name}}
+Content-Type: application/json
+
+{
+    "first_name": "Sebastian1",
+    "last_name": "Nommand1",
+    "address": "456 Subway, NDC"
+}
+
+###
+
+# @name update{{Name}}
+
+PATCH  {{baseUrl}}/{{Name}}/4
+Content-Type: application/json
+
+{
+    "first_name": "diablo",
+    "last_name": "Nomman",
+    "address": "456 Subway, NDC"
+}
+
+###
+
+# @name delete{{Name}}
+
+DELETE {{baseUrl}}/{{Name}}/4
