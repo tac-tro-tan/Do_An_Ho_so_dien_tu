@@ -1,3 +1,12 @@
+# Quick Start
+
+1. Make sure Git & NodeJS are installed
+2. `git clone https://github.com/syahmifauzi/react-projects.git`
+3. `cd react-projects/<project-name>/`
+4. `npm install`
+5. `npm start`
+6. Open web browser & navigate to `http://localhost:3000`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
